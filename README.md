@@ -50,7 +50,7 @@ npm i
 npm run watch && npm run server
 ```
 
-<image src="./demo.png" style="width:400px" />
+<img src="./demo.png" style="width:400px" />
 
 
 ## 配置说明
