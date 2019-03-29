@@ -50,7 +50,7 @@ npm i
 npm run watch && npm run server
 ```
 
-<img src="./demo.png" style="width:400px" />
+<img src="./demo.png" style="width:400px" >
 
 
 ## 配置说明
@@ -98,17 +98,6 @@ npm run watch && npm run server
 
 默认：foreground
 
-### image `string`  (请期待)
-
-码正中间图片的url，只支持配置正方形图片
-
-默认：`''`
-
-### imageSize `number`  （请期待）
-
-image的宽和高，单位px
-
-默认：`30`
 
 
 

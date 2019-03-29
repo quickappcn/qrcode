@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "set NODE_ENV=production && node build.js"
+    "build": "webpack src/index.js dist/qrcode.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/WangCao/qrcode#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.3"
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
   }
 }

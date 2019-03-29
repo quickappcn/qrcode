@@ -21,21 +21,6 @@
     "pages": {
       "Demo": {
         "component": "index"
-      },
-      "DemoDetail": {
-        "component": "index"
-      },
-      "About": {
-        "component": "index"
-      }
-    },
-    "widgets": {
-      "CardDemo": {
-        "name": "CardDemo",
-        "description": "快应用卡片展示",
-        "component": "index",
-        "path": "/CardDemo",
-        "features": []
       }
     }
   },
@@ -46,12 +31,6 @@
     "pages": {
       "Demo": {
         "titleBarText": "示例页",
-        "menu": false
-      },
-      "DemoDetail": {
-        "titleBarText": "详情页"
-      },
-      "About": {
         "menu": false
       }
     }
