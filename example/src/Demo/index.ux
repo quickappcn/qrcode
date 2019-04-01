@@ -1,0 +1,34 @@
+<template>
+  <div class="page">
+    <canvas id="qrcode"></canvas>
+  </div>
+</template>
+
+<script>
+  import qrcode from './qrcode.js';
+
+  export default {
+    onShow() {
+      this.draw();
+    },
+    draw() {
+      qrcode({
+        text: "www.baidu.com",
+      }, this.$element('qrcode'))
+    }
+  }
+
+</script>
+
+<style>
+  .page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  canvas {
+    width: 500px;
+    height: 500px;
+  }
+</style>

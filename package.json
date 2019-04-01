@@ -1,43 +1,26 @@
 {
-  "name": "arale-qrcode",
-  "version": "3.0.5",
-  "description": "二维码绘制模块",
-  "homepage": "http://aralejs.org/qrcode/",
-  "author": "倚松 <jiasong.hjs@alibaba-inc.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aralejs/qrcode/"
-  },
-  "bugs": {
-    "url": "https://github.com/aralejs/qrcode/issues"
-  },
-  "keywords": ["utility", "qrcode", "二维码"],
-  "licenses": "MIT",
-  "spm": {
-    "main": "index.js",
-    "dependencies": {
-      "extend": "~1.0.0",
-      "jquery": "1.7.2"
-    },
-    "devDependencies": {
-      "expect.js": "0.3.1"
-    },
-    "build": {
-      "babel" : {},
-      "library" : "AraleQRCode",
-      "libraryTarget" : "this"
-    }
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
   },
   "scripts": {
-    "babel": "babel src --out-dir lib",
-    "prepublish": "npm run babel",
-    "build" : "spm-webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "babel" : "~5.8.21",
-    "spm-webpack": "~0.7.3",
-    "nico": "*",
-    "mocha-browser": "*",
-    "jscoverage": "~0.3.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangCao/qrcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WangCao/qrcode/issues"
+  },
+  "homepage": "https://github.com/WangCao/qrcode#readme",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
