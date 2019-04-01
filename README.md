@@ -38,7 +38,7 @@
 
 ### 示例
 
-示例参见 `example` 文件夹快应用项目[Demo页面]()
+示例参见 `example` 文件夹快应用项目[Demo页面](https://github.com/WangCao/qrcode/blob/master/example/src/Demo/index.ux)
 
 源代码参见 `src` 文件夹
 
