@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/WangCao/qrcode#readme",
   "dependencies": {
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
   }
 }
