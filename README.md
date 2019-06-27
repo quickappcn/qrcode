@@ -22,7 +22,7 @@
    qrcode({
      text: "www.baidu.com", // 需要生成的二维码字符串
      width: 500,
-     height: 500,
+     height: 500
    },this.$element('qrcode'))
    ```
 
