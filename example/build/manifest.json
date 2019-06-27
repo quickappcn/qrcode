@@ -22,7 +22,7 @@
     }
   ],
   "config": {
-    "logLevel": "off",
+    "logLevel": "debug",
     "debug": true
   },
   "router": {

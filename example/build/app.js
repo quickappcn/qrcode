@@ -1,6 +1,6 @@
 (function(){
   
-  var manifestJson = {"package":"com.application.demo","name":"example","versionName":"1.0.0","versionCode":"1","minPlatformVersion":"1020","icon":"/Common/logo.png","features":[{"name":"system.prompt"},{"name":"system.router"},{"name":"system.shortcut"}],"permissions":[{"origin":"*"}],"config":{"logLevel":"off"},"router":{"entry":"Demo","pages":{"Demo":{"component":"index"}}},"display":{"titleBarBackgroundColor":"#f2f2f2","titleBarTextColor":"#414141","menu":true,"pages":{"Demo":{"titleBarText":"示例页","menu":false}}}}
+  var manifestJson = {"package":"com.application.demo","name":"example","versionName":"1.0.0","versionCode":"1","minPlatformVersion":"1020","icon":"/Common/logo.png","features":[{"name":"system.prompt"},{"name":"system.router"},{"name":"system.shortcut"}],"permissions":[{"origin":"*"}],"config":{"logLevel":"debug"},"router":{"entry":"Demo","pages":{"Demo":{"component":"index"}}},"display":{"titleBarBackgroundColor":"#f2f2f2","titleBarTextColor":"#414141","menu":true,"pages":{"Demo":{"titleBarText":"示例页","menu":false}}}}
   var createAppHandler = function() {
     return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -90,10 +90,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!./node_modules/_babel-loader@8.0.5@babel-loader/lib/index.js?comments=false!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./src/app.ux?uxType=app":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!./node_modules/_babel-loader@8.0.5@babel-loader/lib?comments=false!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./src/app.ux?uxType=app ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!./node_modules/hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!./node_modules/hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!./node_modules/babel-loader/lib/index.js?comments=false!./node_modules/hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./src/app.ux?uxType=app":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!./node_modules/hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!./node_modules/hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!./node_modules/babel-loader/lib?comments=false!./node_modules/hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./src/app.ux?uxType=app ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -102,9 +102,9 @@ module.exports = function __scriptModule__ (module, exports, $app_require$){"use
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports["default"] = void 0;
 var _default = {};
-exports.default = _default;}
+exports["default"] = _default;}
 
 /***/ }),
 
@@ -115,7 +115,7 @@ exports.default = _default;}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_script$ = __webpack_require__(/*! !../node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!../node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!../node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!../node_modules/babel-loader?comments=false!../node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./app.ux?uxType=app */ "./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!./node_modules/_babel-loader@8.0.5@babel-loader/lib/index.js?comments=false!./node_modules/_hap-toolkit@0.2.2@hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./src/app.ux?uxType=app")
+var $app_script$ = __webpack_require__(/*! !../node_modules/hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!../node_modules/hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!../node_modules/hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!../node_modules/babel-loader?comments=false!../node_modules/hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./app.ux?uxType=app */ "./node_modules/hap-toolkit/packager/lib/dsl/ux/loader/script-loader.js!./node_modules/hap-toolkit/packager/lib/dsl/common/loader/module-loader.js!./node_modules/hap-toolkit/packager/lib/dsl/common/loader/manifest-loader.js?path=/home/mi/work/github/qrcode/example/src!./node_modules/babel-loader/lib/index.js?comments=false!./node_modules/hap-toolkit/packager/lib/dsl/ux/loader/fragment-loader.js?index=0&type=script!./src/app.ux?uxType=app")
 
 $app_define$('@app-application/app', [], function($app_require$, $app_exports$, $app_module$){
      $app_script$($app_module$, $app_exports$, $app_require$)
