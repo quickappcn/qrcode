@@ -3,7 +3,7 @@
   "name": "example",
   "versionName": "1.0.0",
   "versionCode": "1",
-  "minPlatformVersion": "1020",
+  "minPlatformVersion": "1050",
   "icon": "/Common/logo.png",
   "features": [
     {
@@ -22,7 +22,7 @@
     }
   ],
   "config": {
-    "logLevel": "off",
+    "logLevel": "debug",
     "debug": true
   },
   "router": {

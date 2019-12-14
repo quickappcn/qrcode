@@ -35,6 +35,8 @@
     |background   | color| `#FFFFFF` | 背景色|
     |foreground   | color| `#000000` | 前景色|
     |pdground   | color| `#000000` | 三个角的颜色|
+    |image   | string| "" | 二维码中间logo的url|
+    |imageSize   | number| 30 | 二维码中间logo的大小|
 
 ### 示例
 
@@ -44,4 +46,4 @@
 
 **效果：**
 
-<img src="./demo.png" width="400" >
+<img src="./demo.jpg" width="400" >
