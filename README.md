@@ -29,8 +29,8 @@
     |参数     |类型  | 默认值    |含义 |
     |:------------:|------------|-----|-----------|
     |text     | string|""|要编码的字符串 |
-    |width   | number|canvas的宽度| 二维码的宽，单位是px|
-    |height   | number|canvas的高度| 二维码的高，单位是px|
+    |width   | number|300| 二维码的宽，单位是px|
+    |height   | number|300| 二维码的高，单位是px|
     |correctLevel   | number|3| 纠错级别，可取0、1、2、3，数字越大说明所需纠错级别越大x|
     |background   | color| `#FFFFFF` | 背景色|
     |foreground   | color| `#000000` | 前景色|
