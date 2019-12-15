@@ -19,7 +19,7 @@
    
     ```JavaScript
     qrcode({
-      text: "www.baidu.com", // 需要生成的二维码字符串
+      text: "https://doc.quickapp.cn/", // 需要生成的二维码字符串
     },this.$element('qrcode'))
     ```
 
