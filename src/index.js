@@ -19,8 +19,8 @@ function createCanvas(qrCodeAlg, canvas) {
   let ctx = canvas.getContext('2d');
   let count = qrCodeAlg.getModuleCount();
   //计算每个点的长宽
-  let width = options.width || Number(canvas._finalStyleCache.width.replace('px',''))
-  let height = options.height || Number(canvas._finalStyleCache.height.replace('px',''))
+  let width = options.width
+  let height = options.height
   let tileW = (width / count).toPrecision(4);
   let tileH = (height / count).toPrecision(4);
 
@@ -40,6 +40,16 @@ function createCanvas(qrCodeAlg, canvas) {
       ctx.fillRect(Math.round(col * tileW), Math.round(row * tileH), w, h);
     }
   }
+
+  if(options.image){
+    const img = new Image();
+    img.src = options.image;
+    img.onload = () => {
+      let x = ((options.width - options.imageSize)/2).toFixed(2);
+      let y = ((options.height - options.imageSize)/2).toFixed(2);
+      ctx.drawImage(img, x, y, options.imageSize, options.imageSize);
+    };
+}
 
 }
 
@@ -63,8 +73,8 @@ export default function qrcode(
     correctLevel: 3,
     background: '#ffffff',
     foreground: '#000000',
-    width: null,
-    height: null,
+    width: 300,
+    height: 300,
     image: '',
     imageSize: 30
   }, opt)

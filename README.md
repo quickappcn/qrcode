@@ -19,7 +19,7 @@
    
     ```JavaScript
     qrcode({
-      text: "www.baidu.com", // 需要生成的二维码字符串
+      text: "https://doc.quickapp.cn/", // 需要生成的二维码字符串
     },this.$element('qrcode'))
     ```
 
@@ -29,12 +29,14 @@
     |参数     |类型  | 默认值    |含义 |
     |:------------:|------------|-----|-----------|
     |text     | string|""|要编码的字符串 |
-    |width   | number|canvas的宽度| 二维码的宽，单位是px|
-    |height   | number|canvas的高度| 二维码的高，单位是px|
+    |width   | number|300| 二维码的宽，单位是px|
+    |height   | number|300| 二维码的高，单位是px|
     |correctLevel   | number|3| 纠错级别，可取0、1、2、3，数字越大说明所需纠错级别越大x|
     |background   | color| `#FFFFFF` | 背景色|
     |foreground   | color| `#000000` | 前景色|
     |pdground   | color| `#000000` | 三个角的颜色|
+    |image   | string| "" | 二维码中间logo的url|
+    |imageSize   | number| 30 | 二维码中间logo的大小|
 
 ### 示例
 
@@ -44,4 +46,4 @@
 
 **效果：**
 
-<img src="./demo.png" width="400" >
+<img src="./demo.jpg" width="400" >

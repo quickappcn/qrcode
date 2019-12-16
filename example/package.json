@@ -2,7 +2,7 @@
   "name": "example",
   "version": "1.0.0",
   "subversion": {
-    "toolkit": "0.2.2"
+    "toolkit": "0.6.10"
   },
   "description": "",
   "scripts": {
@@ -12,6 +12,15 @@
     "watch": "hap watch"
   },
   "devDependencies": {
-    "hap-toolkit":"^0.2.2"
-  }
+    "babel-eslint": "^10.0.1",
+    "bufferutil": "^4.0.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-hybrid": "0.0.5",
+    "file-loader": "^5.0.2",
+    "hap-toolkit": "^0.6.10",
+    "utf-8-validate": "^5.0.2"
+  },
+  "browserslist": [
+    "chrome 65"
+  ]
 }

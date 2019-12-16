@@ -13,7 +13,11 @@
     },
     draw() {
       qrcode({
-        text: "www.baidu.com",
+        text: "https://doc.quickapp.cn",
+        width: 500,
+        height: 500,
+        image:"/Common/logo.png",
+        imageSize: 80
       }, this.$element('qrcode'))
     }
   }
